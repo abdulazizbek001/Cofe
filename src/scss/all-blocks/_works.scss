@@ -1,0 +1,196 @@
+//===================================== WORKS START =====================================//
+
+.works {
+    margin-left: 80px;
+    margin-bottom: 200px;
+
+    h2 {
+        color: #83888F;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-bottom: 80px;
+    }
+
+    &-box {
+        position: relative;
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 67px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 760px;
+            height: 1px;
+            left: 10px;
+            background-color: #FDD6BA;
+        }
+
+        img {
+            position: relative;
+        }
+
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 0 95px;
+        margin-bottom: 64px;
+
+        h3 {
+            color: #FDD6BA;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 72px;
+            margin-bottom: 38px;
+        }
+
+        h4 {
+            width: 255px;
+            color: #333D4B;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 36px;
+            margin-bottom: 42px;
+        }
+
+        p {
+            width: 285px;
+            color: #333D4B;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+
+    a {
+        color: #FEFCF7;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+        padding: 15px 31px;
+        border-radius: 6px;
+        background: #0E8784;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active {
+            opacity: 0.3;
+        }
+    }
+}
+
+//===================================== WORKS END =====================================//
+
+
+//=============================================== MEDIA START ===============================================//
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width: 689px) {
+    .works {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 144px;
+
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            top: 74px;
+            width: 497px;
+            height: 31px;
+            background-image: url("../../../src/assets/svg/media-works.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h2 {
+            color: #83888F;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 32px;
+            margin-bottom: 119px;
+        }
+
+        &-box {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            align-items: flex-start;
+            gap: 0 10px;
+            margin-bottom: 40px;
+
+            h3 {
+                color: #FDD6BA;
+                font-size: 72px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 72px;
+                margin-bottom: 42px;
+            }
+
+            h4 {
+                width: 223px;
+                color: #333D4B;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 32px;
+                margin-bottom: 38px;
+            }
+
+            p {
+                width: 203px;
+                color: #333D4B;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+        }
+
+        a {
+            color: #FEFCF7;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 25px;
+            padding: 15px 31px;
+            border-radius: 6px;
+            background: #0E8784;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &:active {
+                opacity: 0.3;
+            }
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+
+//=============================================== MEDIA END ===============================================//

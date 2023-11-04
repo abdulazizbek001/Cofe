@@ -1,0 +1,156 @@
+//===================================== ABOUT-INFO START =====================================//
+
+.about-info {
+    margin-left: 100px;
+
+    h2 {
+        color: #83888F;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-bottom: 72px;
+    }
+
+    .about-info-list {
+        display: flex;
+        align-items: center;
+        gap: 0 200px;
+        margin-bottom: 168px;
+
+        img {
+            margin-bottom: 46px;
+        }
+
+        h3 {
+            color: #333D4B;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 36px;
+            margin-bottom: 34px;
+        }
+
+        p {
+            color: #333D4B;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}
+
+//===================================== ABOUT-INFO END =====================================//
+
+
+//=============================================== MEDIA START ===============================================//
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width: 689px) {
+    .about-info {
+        margin-left: 10px;
+
+        h2 {
+            color: #83888F;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 32px;
+            margin-bottom: 72px;
+        }
+
+        .about-info-list {
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+
+            img {
+                width: 40.842px;
+                height: 49.072px;
+                margin-bottom: 49px;
+            }
+
+            h3 {
+                color: #333D4B;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 36px;
+                margin-bottom: 21px;
+            }
+
+            p {
+                color: #333D4B;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+//===================================== MOBILE START =====================================//
+
+@media only screen and (max-width: 327px) {
+    .about-info {
+
+        // margin: 0 auto;
+        h2 {
+            color: #83888F;
+            text-align: center;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 32px;
+            margin-bottom: 72px;
+        }
+    
+        .about-info-list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 80px 0;
+            margin-bottom: 120px;
+    
+            .about-info-item {
+                margin: 0 auto;
+                text-align: center;
+    
+                img {
+                    margin-bottom: 47px;
+                }
+    
+                h3 {
+                    color: #333D4B;
+                    text-align: center;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 36px;
+                    margin-bottom: 22px;
+                }
+    
+                p {
+                    color: #333D4B;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}
+
+//===================================== MOBILE END =====================================//
+
+
+
+//=============================================== MEDIA END ===============================================//

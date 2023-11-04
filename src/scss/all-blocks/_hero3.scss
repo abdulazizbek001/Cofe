@@ -1,0 +1,67 @@
+//===================================== HERO3 START =====================================//
+
+.hero3 {
+    border-radius: 10px;
+    padding: 134px 0px 134px 85px;
+    background-image: url("../../../src/assets/img/hero3.png");
+    background-repeat: no-repeat;
+    margin-bottom: 164px;
+
+    h1 {
+        color: #FEFCF7;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        margin-bottom: 32px;
+    }
+
+    p {
+        width: 445px;
+        color: #FEFCF7;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+//===================================== HERO3 END =====================================//
+
+//=============================================== MEDIA START ===============================================//
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width: 689px) {
+    .hero3 {
+        border-radius: 10px;
+        padding: 127px 0px 127px 58px;
+        background-image: url("../../../src/assets/img/media-creat.png");
+        background-repeat: no-repeat;
+        margin-bottom: 125px;
+
+        h1 {
+            color: #FEFCF7;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            width: 398px;
+            color: #FEFCF7;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+//=============================================== MEDIA END ===============================================//

@@ -1,0 +1,172 @@
+//===================================== CHOOSE START =====================================//
+
+.choose {
+    padding: 100px 0px 0px 0px;
+    position: relative;
+    width: 1250px;
+    height: 577px;
+    border-radius: 10px;
+    background: #2C343E;
+    margin-bottom: 351px;
+
+    h2 {
+        color: #FEFCF7;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+        margin-bottom: 32px;
+    }
+
+    p {
+        margin: 0 auto;
+        width: 520px;
+        color: #FEFCF7;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 86px;
+    }
+
+    ul {
+        position: absolute;
+        top: 372px;
+        left: 78px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 30px;
+
+        .choose-item {
+            padding: 90px 0px 0px 0px;
+        }
+
+        li {
+            padding: 72px 0px 48px 0px;
+            width: 350px;
+            height: 382px;
+            border-radius: 8px;
+            background: #0E8784;
+
+            img {
+                margin-left: 135px;
+                margin-bottom: 56px;
+            }
+
+            h4 {
+                color: #FEFCF7;
+                font-size: 24px;
+                text-align: center;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 32px;
+                margin-bottom: 24px;
+            }
+
+            p {
+                margin: 0 auto;
+                width: 255px;
+                color: #FEFCF7;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+//===================================== CHOOSE END =====================================//
+
+
+//================================================== MEDIA START ===============================================//
+
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width: 689px) {
+    .choose {
+        position: relative;
+        width: 100%;
+        padding-top: 56px;
+        margin-bottom: 434px;
+
+        h2 {
+            color: #FEFCF7;
+            text-align: center;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            width: 540px;
+            color: #FEFCF7;
+            text-align: center;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            opacity: 0.8;
+            margin-bottom: 70px;
+        }
+
+        ul {
+            position: absolute;
+            left: 5px;
+            top: 286px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px 0;
+
+            .choose-item {
+                padding: 0;
+            }
+            
+            li {
+                width: 573px;
+                height: 180px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0 70px;
+                padding: 0;
+
+                img {
+                    margin: 0;
+                }
+
+                h4 {
+                    color: #FEFCF7;
+                    text-align: start;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 32px;
+                    margin-bottom: 16px;
+                }
+
+                p {
+                    width: 344px;
+                    color: #FEFCF7;
+                    text-align: start;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+//================================================== MEDIA START ===============================================//

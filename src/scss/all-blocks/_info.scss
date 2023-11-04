@@ -1,0 +1,126 @@
+//===================================== INFO START =====================================//
+
+.info {
+    margin: 0 auto;
+    position: relative;
+    width: 1111px;
+    height: 524.545px;
+    margin-bottom: 200px;
+
+    .info-img {
+        margin: 0 auto;
+        position: absolute;
+        top: -126px;
+        left: 3px;
+    }
+
+    &-box {
+        position: absolute;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 30px;
+
+        img {
+            margin-bottom: 72px;
+        }
+
+        h5 {
+            color: #333D4B;
+            text-align: center;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 32px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            width: 255px;
+            color: #333D4B;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}
+
+//===================================== INFO END =====================================//
+
+
+//=============================================== MEDIA START ===============================================//
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width: 689px) {
+    .info {
+        position: relative;
+        // margin: 0 auto;
+        width: 96%;
+        margin-bottom: 641px;
+
+        .info-img {
+            position: absolute;
+            width: 689px;
+            height: 118px;
+            top: -17px;
+            left: -15px;
+        }
+
+        ul {
+            width: 550px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 47px 0;
+
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0 35px;
+
+                img {
+                    width: 234.822px;
+                    height: 177.483px;
+                }
+
+
+                div {
+                    text-align: start;
+                    height: 106px;
+
+                    h5 {
+                        color: #333D4B;
+                        text-align: start;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 32px;
+                        margin-bottom: 24px;
+                    }
+
+                    p {
+                        width: 282px;
+                        color: #333D4B;
+                        text-align: start;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+//=============================================== MEDIA END ===============================================//

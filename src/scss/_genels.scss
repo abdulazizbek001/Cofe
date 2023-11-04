@@ -1,0 +1,36 @@
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fraunces', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+span {
+    display: inline-block;
+}

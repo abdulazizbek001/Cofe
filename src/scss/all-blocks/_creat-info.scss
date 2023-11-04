@@ -1,0 +1,117 @@
+//===================================== INFO2 START =====================================//
+
+.creat-info {
+    width: 100%;
+    height: 653px;
+    padding: 100px 0px 107px 0px;
+    border-radius: 10px;
+    background: #2C343E;
+    margin-bottom: 159px;
+
+    img {
+        margin-bottom: 67px;
+        margin-left: 115px;
+    }
+
+    .creat-info-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 95px;
+        margin-bottom: 107px;
+
+        .creat-info-item {
+            h3 {
+                color: #FDD6BA;
+                font-size: 72px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 72px;
+                margin-bottom: 38px;
+            }
+
+            h2 {
+                width: 255px;
+                color: #FEFCF7;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 36px;
+                margin-bottom: 42px;
+            }
+
+            p {
+                width: 275px;
+                color: #FEFCF7;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+
+    }
+}
+
+//===================================== INFO2 END =====================================//
+
+
+//===================================== MEDIA START =====================================//
+
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width: 689px) {
+    .creat-info {
+        padding: 97px 39px 98px 40px;
+    
+        img {
+            width: 497px;
+            height: 31px;
+            margin-bottom: 48px;
+        }
+    
+        .creat-info-list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 10px;
+            margin-bottom: 107px;
+    
+            h3 {
+                color: #FDD6BA;
+                font-size: 72px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 72px;
+                margin-bottom: 42px;
+            }
+    
+            h2 {
+                width: 223px;
+                color: #FFF;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 32px;
+                margin-bottom: 38px;
+            }
+    
+            p {
+                width: 241px;
+                color: #FFF;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+
+//===================================== MEDIA END =====================================//
